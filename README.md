@@ -52,3 +52,9 @@ client.release("HELLO").then(function() {
 		});
 	});
 ```
+
+Notes
+-------------
+Various current issues with the Blockd Node client includes:
+* This is alpha software at best and not ready for production systems
+* As of this writing, the script is a system-level automated test for the Blockd server more so than a real client library
